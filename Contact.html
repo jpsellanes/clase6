@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">  <!--Roboto Black 900-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> <!--Roboto regular 400-->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet"> <!--Prompt regular 400-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/jpscadICO.ico" type="image/x-icon">
+    <title>Contact</title>
+</head>
+
+
+<body>
+    <header>
+        <!--menu parte superior--> 
+      
+      <div class="topnav">
+        <img class="logo" src="images/LogoJPSCAD.jpg">
+        <nav> 
+          <ul>
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="FEA.html"> FEA Services</a></li>
+            <li><a href="Embedded.html"> Embedded Systems</a></li>
+            <li><a href="About.html"> About Us</a></li>
+            <li><a href="Contact.html"> Contact Us</a></li>
+         </ul>
+        </nav>
+      </div>
+      
+  </header>
+
+  <section class="contenidoContactUs">
+    <section>
+      <!-- Contenido principal-->
+         <!--ParteA-->
+         <!--ParteA1 sin uso por ahora-->
+       <div class="contact_A"></div>
+        <!--ParteA2-->
+         <div class="A2">
+           <form class="formContactUs" action="#">    <!--Comienzo Formulario-->
+              <fieldset>
+                  <legend> Contact Form</legend>
+                  <label for="name">Name</label>                <!--Campo para Escribir Nombre-->
+                  <br>
+                  <input id="name" type="text" name="name" placeholder="Name" required>
+                  <br> <!-- br como espaciado provisorio -->
+                  <br>
+  
+                  <label for="Position"> I'm a: </label>        <!--Menu Desplegable para elegir profesion-->
+                  <br>
+                  <select name="Position" id="Position">
+                      <option value=""> Select Position</option>
+                      <option value="Engineer"> Engineer</option>
+                      <option value="Company"> Company</option>
+                      <option value="PhD"> Post-Doctoral Student</option>
+                      <option value="Student"> Engineering Student</option>
+                      <option value="UnderStudent"> Under-Graduate Student</option>
+                      <option value="Other"> Other</option>
+                  </select>
+                  <br>
+                  <br>
+  
+                  <label for="Subject">Subject</label>     <!--Motivo del mail/contacto-->
+                  <br>
+                  <input id="Subject" name="Subject" type="text">
+                  
+                  <br>
+                  <br>
+  
+                  <label for="consulta">Message</label>          <!--Campo para el mensaje-->
+                  <br>
+      
+                  <textarea name="consulta" id="consulta" cols="100" rows="5" maxlength="500"></textarea>
+      
+                  <div> Would you like to receive our Newsletter, and receive the new FEA-Book?</div>  <!--Checkbox para Newsletter-->
+                  <input type="checkbox" name="cbox1"> Yes, I would like both
+                  <input type="checkbox" name="cbox2"> Only the Book
+      
+                  <br>
+                  <br>
+                  <input type="submit" value="Submit">        <!--Boton para enviar o resetear los campos-->
+                  <input type="reset" value="Clear All">
+            </fieldset>
+          </form>
+      </div>
+    </section>
+  
+      <!--Parte Complementaria al costado-->
+      <aside class="asideContactUs"> 
+          <div class="asideContactUs">
+          <h2>Simulations</h2>
+          <div class="imgContactUs">
+            <img src="images/FotoPrueba2.png" alt="Contact us picture">
+            <img src="images/FotoPrueba2.png" alt="Contact us picture 2">
+          </div>
+          </div>
+          <p class="asideTextContactUs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis incidunt impedit perferendis earum ea harum voluptatibus eos doloribus cumque doloremque ipsa, culpa eum laudantium amet delectus dolorum laborum expedita. Alias.</p>
+          
+      </aside>
+    </section>
+ 
+
+  
+  <footer>
+    <!-- Pie de Pagina -->
+    <img src="images/LogoJPSCAD.jpg">
+    <nav>
+        <a href="index.html"> Home</a>
+        <a href="FEA.html"> FEA Services</a>
+        <a href="Embedded.html"> Embedded Systems</a>
+        <a href="About.html"> About Us</a>
+        <a href="Contact.html"> Contact Us</a>   
+    </nav>
+   </footer>
+
+</body>
+</html>

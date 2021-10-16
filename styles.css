@@ -1,0 +1,371 @@
+/*Estilos generales, y para textos usados en todas las paginas*/
+
+h1 {
+  color:rgb(48, 150, 250);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+}
+
+h2{
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+
+h4{
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+
+p {
+    color:rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+    line-height: 1.25;
+}
+
+.A img{
+    display: block;
+    margin: auto;
+}
+
+/* indexA pertence a la pagina Index */
+.asideIndex{
+    float: right;
+    width: 20%;
+}
+
+.indexA{
+    float: left;
+    margin: 0 1.5%;
+    width: 75%;
+}
+
+.indexB img{
+    display: block;
+    margin: 50px auto;
+}
+
+.indexB img:hover{
+    transform: scale(1.25);
+}
+
+.A p{
+    color:rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+}
+
+.indexA img{
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.indexA p{
+    font-size: 1.5rem;
+    font-family: 'Roboto',sans-serif;
+}
+.indexA h3{
+    font-size: 2.5rem;
+    font-family: 'Roboto',sans-serif;
+}
+/*topnav   En esta parte se modifica todo lo referente a la barra de navegacion superior*/
+.topnav{
+    width: 100%;
+    height: 100px;
+}
+
+.topnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.topnav a {
+    float:left;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(145, 152, 160);
+    font-weight: bolder;
+    vertical-align: top;
+    
+}
+
+.logo{
+    float: left;
+    height: 120px;
+}
+
+/*footnav   En esta parte se modifica todo lo referente a la barra de navegacion inferior del Footer*/
+
+footer{
+    position: relative;
+    bottom:0;
+    left:0;
+    right: 0;
+    background-color: rgb(48, 150, 250);
+    height:150px;
+    float: left;
+    width: 100%;
+}
+
+footer a{
+    text-align: left;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+footer nav{
+    padding: 10px;
+}
+
+footer img{
+    height: 150px;
+    float: left;
+}
+
+
+/*Tabla parte FEA   En esta parte se modifica todo lo referente a la barra de navegacion superior*/
+.feaA h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px;
+}
+.feaA img{
+    display: block;
+    margin: auto;
+}
+
+
+.gridFeaContenedor{
+    float: left;
+    /*padding-left: 150px;*/
+}
+#grillaFea{    
+    background-color: white;
+    display: grid;
+    grid-template-areas:
+    ". feaGridA1 feaGridA1 ."
+    ". feaGridA2 feaGridA3 ."
+    ". feaGridA4 feaGridA4 .";
+    margin: 10px;
+    padding-left: 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 700px 500px 650px;
+    text-align: center;
+    width: 85%;
+}
+
+#grillaFea h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#grillaFea h3{
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.feaGridA1{
+    grid-area: feaGridA1;
+
+}
+.feaGridA2{
+    grid-area: feaGridA2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feaGridA3{
+    grid-area: feaGridA3;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.feaGridA4{
+    grid-area: feaGridA4;
+}
+
+.tablaFEA table,th,td{
+    font-family: 'Prompt', sans-serif;
+    border:2px solid rgb(48, 150, 250);
+}
+.tablaFEA table{
+    border-collapse: collapse;
+    border:2px solid rgb(48, 150, 250);
+}
+
+.tablaFEA table,th {
+    font-size: 30px;
+    background-color: rgb(48, 150, 250);
+    color:rgb(255, 255, 255);
+}
+.tablaFEA table,p{
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    color: rgb(6, 15, 20);
+    
+}
+
+/*Tabla parte Embedded*/
+table{
+    border-collapse: collapse;
+}
+.daqDiv{
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2.5%;
+}
+
+.daqDiv p{
+    font-size: 1.5rem;
+    margin: 20px;
+}
+.daqDiv h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#grillaEmbedded{              /*GRILLA De Embedded*/           
+    background-color: white;
+    display: grid;
+    grid-template-areas:
+    "pcbDesign01 pcbDesignText"
+    "pcbThermal01 thermalText"
+    "pcbArmado01 armadoText";
+    padding-left: 10%;
+    padding-right: 15%;
+    
+}
+
+.pcbDesign01{
+    grid-area: pcbDesign01;
+    background-color: rgb(48, 150, 250);
+    font-family: 'Roboto', sans-serif;
+}
+.pcbDesignText{
+    grid-area: pcbDesignText;
+    background-color: rgb(48, 150, 250);
+    font-family: 'Roboto', sans-serif;
+
+}
+#grillaEmbedded p{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bolder;
+    margin: 20px;
+}
+#grillaEmbedded h3{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin: 25px;
+}
+
+.thermalText{
+    grid-area: thermalText;
+    background-color: rgb(48, 150, 250);
+    font-family: 'Roboto', sans-serif;
+}
+.thermalText p{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bolder;
+    margin: 20px;
+}
+.armadoText{
+    grid-area: armadoText;
+    background-color:rgb(48, 150, 250);
+    font-family: 'Prompt', sans-serif;
+
+}
+.armadoText p{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bolder;
+    margin: 20px;
+}
+.pcbThermal01{
+    grid-area: pcbThermal01;
+    background-color: rgb(48, 150, 250);
+}
+.pcbArmado01{
+    grid-area: pcbArmado01;
+    background-color: rgb(48, 150, 250);
+}
+
+/*About*/
+.divAabout{
+    display: flex;
+}
+.divA1about{
+   margin: 10px;
+}
+.divA2about{
+    margin-right: 10px;
+}
+
+/*Formulario Contact Us*/
+
+.contenidoContactUs{
+    display: flex;  /*Se declara el Flex para la section de contact us*/
+    align-items: center;
+    
+}
+.contact_A {
+    align-content: center;
+    padding: 40px;
+}
+
+.formContactUs{
+   /* float: left;*/
+   display: flex;
+    width: 45%;
+    align-content: center;
+    padding: 40px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.imgContactUs{
+    display: flex;
+}
+
+.asideContactUs{
+    width: 45%;
+    justify-content: space-evenly;
+    /*float: left;*/
+}
+
+.asideContactUs img{
+    width: 18rem;
+    padding: 0.4rem;
+}
+
+.asideTextContactUs {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
